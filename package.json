@@ -1,8 +1,8 @@
 {
-  "name": "webpack-starter-kit",
-  "version": "1.1.0",
+  "name": "goit-js-hw-10-food-service",
+  "version": "1.0.0",
   "description": "Для корректной работы SASS-компилятора и других инструментов, необходимо один\r раз глобально поставить дополнительные пакеты, выполнив в терминале следующие\r команды. Пользователям MacOS ничего делать не нужно.",
-  "main": "index.js",
+  "main": "postcss.config.js",
   "scripts": {
     "start": "webpack-dev-server --env.mode development --config ./webpack/config.js",
     "build": "webpack --env.mode production --config ./webpack/config.js",
@@ -11,15 +11,15 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://https://github.com/VityukY/goit-js-hw-10-food-service"
+    "url": "git+https://github.com/VityukY/goit-js-hw-10-food-service.git"
   },
   "keywords": [],
-  "author": "",
+  "author": "YURII_VITIUK",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/luxplanjay/webpack-starter-kit/issues"
+    "url": "https://github.com/VityukY/goit-js-hw-10-food-service/issues"
   },
-  "homepage": "https://github.com/VityukY/goit-js-hw-10-food-service",
+  "homepage": "https://github.com/VityukY/goit-js-hw-10-food-service#readme",
   "devDependencies": {
     "@babel/core": "^7.11.6",
     "@babel/plugin-proposal-class-properties": "^7.10.4",
