@@ -14,14 +14,12 @@ const dartThemeHandler = function () {
   bodyRef.classList.add('dark-theme');
   switcherButRef.setAttribute('checked', true);
   localStorage.setItem('theme', 'dark');
-  return;
 };
 const lightThemeHandler = () => {
   bodyRef.classList.remove('dark-theme');
   bodyRef.classList.add('light-theme');
   switcherButRef.removeAttribute('checked');
   localStorage.setItem('theme', 'light');
-  return;
 };
 
 if (localStorage.getItem('theme') === 'dark') {
